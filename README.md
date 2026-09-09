@@ -22,9 +22,9 @@ Building is mostly curiosity for me. I spend my day in the terminal, so my free 
 
 | Project | Your role & stack | Impact / Demo |
 |---------|------------------|---------------|
-| **Fever real-time analytics platform** | Owner and sole designer • ClickHouse + Tinybird + Kafka + Debezium + Redis | 17B rows, 3.3M queries/mo, sub-second p95. Internal, walkthrough on request |
-| **[CS skins trading bot](https://github.com/pugarte7/csgo2_skins_analytics)** | Solo • Python + Airflow + DynamoDB | Scrapes marketplaces and hunts arbitrage between them. Honest status: the algorithm is still wrong |
-| **[spanish-top-tech-companies](https://github.com/pugarte7/spanish-top-tech-companies)** | Solo • Python + GitHub Actions | 261 companies mapped, 112 paying seniors 60k+. Open dataset, anyone can contribute |
+| **Fever real-time analytics platform** | Owner and sole designer • ClickHouse + Tinybird + Kafka + Debezium + Redis | 1.3 TB and 17B rows, 3.3M queries/mo at sub-second p95, 1.4 PB scanned monthly. Walkthrough on request |
+| **IFS high-throughput streaming platform** | Pipeline architect and Go developer • Azure + Kubernetes + Kafka + NiFi + Airflow | 10,000+ data entry points per second feeding analytics, ML models and alerting. Hot to cold lifecycle policies cut storage cost |
+| **Solar telemetry pipeline at Datu(a)** | Owned pipelines and infra • Python + Airflow + Kubernetes + Terraform + Cassandra | Live data off thousands of panels across 170 photovoltaic plants worldwide |
 
 ### Experience (TL;DR)
 
